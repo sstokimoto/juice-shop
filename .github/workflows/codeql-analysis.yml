@@ -17,7 +17,7 @@ jobs:
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v1
       with:
-        queries: security-and-quality
+        queries: security-extended
     - name: Autobuild
       uses: github/codeql-action/autobuild@v1
     - name: Perform CodeQL Analysis
